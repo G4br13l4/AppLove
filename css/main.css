@@ -70,21 +70,48 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
+/*Poner el ancho de la barra de navegacion*/
 header {
-  background-color: pink;
+  background: white;
   width: 100%;
+  height: 100px;
   padding: 15px 60px 20px 60px;
   font-family: 'Raleway', sans-serif;
 }
-
+/*Hacer que la lista de nav se vuelvan bloques*/
 header li{
   display: inline-block;
 }
 
+/*Ubicar el logo en la esquina derecha dentro display: block;*/
 header img {
   position: relative;
   float:right;
-  width: 65px;
+  width: 60px;
   bottom: 60px;
 }
+
+/*Poner imagen de fondo de 1era seccion*/
+.bg-home {
+  width: 100%;
+  height: 570px;
+  position: relative;
+}
+
+/* Quitar espacio entre header y primera seccion*/
+.seccion {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  float: left;
+}
+
+.seccion h2 {
+  float: right;
+  position: relative;
+  width: 50%;
+  background: white;
+}
+
+
+
